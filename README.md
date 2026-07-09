@@ -34,6 +34,17 @@ This repository contains comprehensive, deep-dive documentation covering: Java c
 
 - [13. One-Week Study Plan (1–2h/day)](./13-one-week-study-plan.md)
 
+### Exercises & Leveled Q&A (Basic / Mid / Senior)
+
+Hands-on exercises with solutions, plus interview questions split into **Basic**, **Mid**, and **Senior** tiers, for each subject area:
+
+- [14. Exercises & Leveled Q&A — Concurrency Fundamentals](./14-exercises-concurrency-fundamentals.md)
+- [15. Exercises & Leveled Q&A — Thread Safety & Spring](./15-exercises-thread-safety-spring.md)
+- [16. Exercises & Leveled Q&A — Database (PostgreSQL)](./16-exercises-database.md)
+- [17. Exercises & Leveled Q&A — Domain-Driven Design](./17-exercises-ddd.md)
+- [18. Exercises & Leveled Q&A — Event-Driven Design](./18-exercises-edd.md)
+- [19. Exercises & Leveled Q&A — System Design](./19-exercises-system-design.md)
+
 ## Key Interview Questions (Concurrency Fundamentals)
 
 1. Why does `counter++` compile into multiple operations?
@@ -47,7 +58,7 @@ This repository contains comprehensive, deep-dive documentation covering: Java c
 9. Why can compiler and CPU instruction reordering break concurrent code?
 10. Why can a thread continue seeing an outdated value even after another thread has modified it?
 
-See each document's own "Interview Q&A" section for questions on thread safety, PostgreSQL, DDD, EDD, and system design.
+See each document's own "Interview Q&A" section for questions on thread safety, PostgreSQL, DDD, EDD, and system design — and see files 14-19 for a Basic/Mid/Senior leveled version with hands-on exercises.
 
 ## What's Coming Next
 
