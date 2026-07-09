@@ -1,6 +1,6 @@
 # 8. Thread Safety & Concurrency Patterns (Application Level)
 
-**Context**: Revolut's technical screen explicitly calls out "concurrency & multithreading on both database and application level". This guide covers the **application level** half with Java/Spring examples. Database-level concurrency is covered in [09-database-concurrency-and-architecture.md](./09-database-concurrency-and-architecture.md).
+**Context**: The technical screen explicitly calls out "concurrency & multithreading on both database and application level". This guide covers the **application level** half with Java/Spring examples. Database-level concurrency is covered in [09-database-concurrency-and-architecture.md](./09-database-concurrency-and-architecture.md).
 
 This builds on the JMM/synchronization fundamentals already covered in this repo:
 - [01-process-vs-thread.md](./01-process-vs-thread.md)
@@ -72,7 +72,7 @@ public class CorrelationIdFilter extends OncePerRequestFilter {
 }
 ```
 
-**Pitfall**: In a thread pool (Tomcat, `ExecutorService`), threads are reused. Forgetting to clear a `ThreadLocal` leaks state (and memory) into the next request handled by that thread — a classic Revolut-style interview trap question.
+**Pitfall**: In a thread pool (Tomcat, `ExecutorService`), threads are reused. Forgetting to clear a `ThreadLocal` leaks state (and memory) into the next request handled by that thread — a classic interview trap question.
 
 ---
 
@@ -153,7 +153,7 @@ public class FraudDetectionService {
 }
 ```
 
-**Combining independent async calls (fan-out/fan-in)** — a very common Revolut-style question ("how would you call 3 services in parallel and combine the results?"):
+**Combining independent async calls (fan-out/fan-in)** — a very common interview question ("how would you call 3 services in parallel and combine the results?"):
 
 ```java
 @Service

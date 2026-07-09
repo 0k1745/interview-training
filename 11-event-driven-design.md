@@ -1,12 +1,12 @@
 # 11. Event-Driven Design (EDD)
 
-**Context**: Second half of "system design, DDD/EDD" from Jazmin's message. Builds directly on the Domain Events introduced in [10-domain-driven-design.md](./10-domain-driven-design.md) — DDD gives you the events, EDD is about how those events flow through the system.
+**Context**: Second half of "system design, DDD/EDD" from the recruiter's message. Builds directly on the Domain Events introduced in [10-domain-driven-design.md](./10-domain-driven-design.md) — DDD gives you the events, EDD is about how those events flow through the system.
 
 ---
 
 ## 1. Why Event-Driven at a Fintech Scale
 
-Revolut-style systems (fraud detection, ledgers, notifications, real-time trading) need to:
+Fintech-style systems (fraud detection, ledgers, notifications, real-time trading) need to:
 - Decouple producers from consumers (payments team doesn't need to know who consumes `TransferCompletedEvent`).
 - Scale reads/writes independently.
 - Support asynchronous, eventually-consistent workflows (a transfer completing triggers fraud scoring, notification, statement update — none of which should block the transfer itself).

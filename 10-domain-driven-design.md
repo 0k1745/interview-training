@@ -1,6 +1,6 @@
 # 10. Domain-Driven Design (DDD)
 
-**Context**: Jazmin's message lists "system design, DDD/EDD" as a core focus area. Your own global conventions already follow a Hexagonal Architecture (`boundaries` / `domain` / `infrastructure`) — this doc formalizes the DDD vocabulary behind that structure so you can talk about it fluently in interview terms.
+**Context**: The recruiter's message lists "system design, DDD/EDD" as a core focus area. Your own global conventions already follow a Hexagonal Architecture (`boundaries` / `domain` / `infrastructure`) — this doc formalizes the DDD vocabulary behind that structure so you can talk about it fluently in interview terms.
 
 ---
 

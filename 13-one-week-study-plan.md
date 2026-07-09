@@ -1,4 +1,4 @@
-# 13. One-Week Study Plan (1–2 hours/day) — Revolut Java Engineer Interview
+# 13. One-Week Study Plan (1–2 hours/day) — Senior Java Engineer Interview
 
 **Goal**: be interview-ready on concurrency/multithreading (app + DB level), PostgreSQL/database architecture, DDD, EDD, and system design, in 7 days at 1–2h/day (~10–12h total).
 
@@ -27,7 +27,7 @@ Each day: **~60% reading/understanding, ~40% active recall** (explain out loud /
 - [ ] Can model an aggregate with correct invariants and domain events.
 - [ ] Can explain the transactional outbox pattern and why naive dual writes fail.
 - [ ] Can whiteboard the money transfer system end-to-end in under 10 minutes, naming CAP trade-offs explicitly.
-- [ ] Has 2–3 questions ready for the interviewer about Revolut's actual stack (Kafka? outbox/Debezium? isolation level in prod? sharding strategy?).
+- [ ] Has 2–3 questions ready for the interviewer about the company's actual stack (Kafka? outbox/Debezium? isolation level in prod? sharding strategy?).
 
 ---
 

@@ -1,6 +1,6 @@
 # Java Concurrency & System Design Interview Preparation
 
-**Target: Senior Java Engineer at Revolut**
+**Target: Senior Java Engineer — Fintech Technical Interview**
 
 This repository contains comprehensive, deep-dive documentation covering: Java concurrency fundamentals, thread safety with Spring, PostgreSQL concurrency & database architecture, Domain-Driven Design, Event-Driven Design, and system design — the exact focus areas communicated for this interview ("concurrency & multithreading on both database and application level", "PostgreSQL and database architecture", "system design, DDD/EDD"). The goal is to prepare you to answer "Why?" five times in a row and demonstrate true senior-level understanding.
 

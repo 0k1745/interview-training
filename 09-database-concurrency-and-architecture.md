@@ -1,6 +1,6 @@
 # 9. Database Concurrency & Architecture (PostgreSQL)
 
-**Context**: This is the "database level" half of Revolut's stated focus ("concurrency & multithreading on both database and application level" + "experience with PostgreSQL and database architecture"). Pair this with [08-thread-safety-and-concurrency-patterns.md](./08-thread-safety-and-concurrency-patterns.md).
+**Context**: This is the "database level" half of the interview's stated focus ("concurrency & multithreading on both database and application level" + "experience with PostgreSQL and database architecture"). Pair this with [08-thread-safety-and-concurrency-patterns.md](./08-thread-safety-and-concurrency-patterns.md).
 
 ---
 

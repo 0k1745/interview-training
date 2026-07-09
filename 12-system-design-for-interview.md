@@ -1,6 +1,6 @@
 # 12. System Design for the Interview
 
-**Context**: Jazmin's message lists "system design" alongside DDD/EDD. This doc gives a repeatable framework for answering system design questions, plus a worked fintech example (money transfer / fraud detection, close to Revolut's actual domain) that ties together concurrency, DDD, and EDD from the other docs in this repo.
+**Context**: The recruiter's message lists "system design" alongside DDD/EDD. This doc gives a repeatable framework for answering system design questions, plus a worked fintech example (money transfer / fraud detection) that ties together concurrency, DDD, and EDD from the other docs in this repo.
 
 ---
 
