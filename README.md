@@ -1,25 +1,40 @@
-# Java Concurrency Interview Preparation
+# Java Concurrency & System Design Interview Preparation
 
 **Target: Senior Java Engineer at Revolut**
 
-This repository contains comprehensive, deep-dive documentation on Java concurrency fundamentals. The goal is to prepare you to answer "Why?" five times in a row and demonstrate true senior-level understanding.
+This repository contains comprehensive, deep-dive documentation covering: Java concurrency fundamentals, thread safety with Spring, PostgreSQL concurrency & database architecture, Domain-Driven Design, Event-Driven Design, and system design — the exact focus areas communicated for this interview ("concurrency & multithreading on both database and application level", "PostgreSQL and database architecture", "system design, DDD/EDD"). The goal is to prepare you to answer "Why?" five times in a row and demonstrate true senior-level understanding.
 
-## Week 1: Foundations
+## Documentation Index
 
-### Day 1: Processes, Threads, and the Java Memory Model
+### Concurrency Fundamentals (Application Level)
 
-- **Section 1**: Process vs Thread
-- **Section 2**: CPU Scheduling
-- **Section 3**: Shared Memory
-- **Section 4**: CPU Cache
-- **Section 5**: The Java Memory Model
-- **Section 6**: Volatile
-- **Section 7**: Synchronized
-- **Section 8**: Intrinsic Locks vs Explicit Locks
-- **Section 9**: CAS (Compare-And-Swap)
-- **Section 10**: Why Lock-Free Isn't Always Better
+- [01. Process vs Thread](./01-process-vs-thread.md)
+- [02. CPU Scheduling and Memory](./02-cpu-scheduling-memory.md)
+- [03. The Java Memory Model](./03-java-memory-model.md)
+- [04. Synchronization Mechanisms (volatile, synchronized)](./04-synchronization-mechanisms.md)
+- [05. Atomic Classes and Lock-Free Programming](./05-atomic-and-lock-free.md)
+- [06. Explicit Locks and Conditions](./06-locks-and-conditions.md)
+- [07. Concurrency Interview Questions & Answers](./07-interview-questions.md)
+- [08. Thread Safety & Concurrency Patterns (Java/Spring)](./08-thread-safety-and-concurrency-patterns.md)
 
-## Key Interview Questions
+### Database (Concurrency & Architecture)
+
+- [09. Database Concurrency & Architecture (PostgreSQL)](./09-database-concurrency-and-architecture.md)
+
+### Domain & Event-Driven Design
+
+- [10. Domain-Driven Design (DDD)](./10-domain-driven-design.md)
+- [11. Event-Driven Design (EDD)](./11-event-driven-design.md)
+
+### System Design
+
+- [12. System Design for the Interview](./12-system-design-for-interview.md)
+
+### Study Plan
+
+- [13. One-Week Study Plan (1–2h/day)](./13-one-week-study-plan.md)
+
+## Key Interview Questions (Concurrency Fundamentals)
 
 1. Why does `counter++` compile into multiple operations?
 2. What guarantees does the Java Memory Model provide?
@@ -32,13 +47,14 @@ This repository contains comprehensive, deep-dive documentation on Java concurre
 9. Why can compiler and CPU instruction reordering break concurrent code?
 10. Why can a thread continue seeing an outdated value even after another thread has modified it?
 
+See each document's own "Interview Q&A" section for questions on thread safety, PostgreSQL, DDD, EDD, and system design.
+
 ## What's Coming Next
 
-- `ConcurrentHashMap`, `ExecutorService`, `CompletableFuture`
-- `ForkJoinPool`, Virtual Threads (Java 21)
-- Deadlocks, starvation, livelocks
-- Thread pool tuning
+- `ForkJoinPool`, Virtual Threads (Java 21) deep dive
+- Sharding strategies and multi-region architecture
+- Chaos engineering / resilience testing patterns
 
 ---
 
-Each section has its own detailed guide with code examples, visual explanations, and interview tips.
+Each section has its own detailed guide with code examples, visual explanations, and interview tips. Start with [13. One-Week Study Plan](./13-one-week-study-plan.md) for a day-by-day schedule.
